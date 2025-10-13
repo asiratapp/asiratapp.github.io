@@ -1,5 +1,5 @@
-#📝 App Description (4000 characters max)
-```
+# App Description (4000 characters max)
+
 AsSirat is your comprehensive Islamic companion app, designed to support Muslims in their daily spiritual journey with authentic Islamic content and modern functionality.
 
 🕌 KEY FEATURES:
@@ -33,7 +33,6 @@ AsSirat combines traditional Islamic practices with modern technology, making it
 Perfect for Muslims of all ages seeking a reliable, comprehensive Islamic companion for their daily spiritual needs.
 
 Download AsSirat today and transform your Islamic journey with confidence, convenience, and authentic Islamic guidance.
-```
 
 ## 📁 Files Included
 
