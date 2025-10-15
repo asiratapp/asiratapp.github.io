@@ -1,6 +1,37 @@
-# As-Sirat Islamic App - GitHub Pages
+## App Description
 
-This folder contains the GitHub Pages website for the As-Sirat Islamic companion app, including all required legal documentation for app store publication.
+AsSirat is your comprehensive Islamic companion app, designed to support Muslims in their daily spiritual journey with authentic Islamic content and modern functionality.
+
+### KEY FEATURES:
+- Prayer Times: Accurate prayer times based on your location with customizable notifications
+- Qibla Direction: Find the precise direction to Mecca from anywhere in the world
+- Complete Holy Quran: Full Quran text with multiple translations and audio recitation
+- 99 Names of Allah: Learn and recite the beautiful names with meanings and pronunciation
+- Digital Tasbih Counter: Prayer beads with progress tracking, statistics, and customizable dhikr
+- Islamic Calendar: Important Islamic dates, occasions, and holy months
+- Khatmah Scheduler: Plan and track your Quran completion with personalized reading schedules
+- Duas Collection: Essential Islamic prayers for daily life and special occasions
+- Multi-language Support: Available in 8 languages including Arabic script
+
+### PERFECT FOR:
+- Daily prayer reminders with accurate timing based on calculation methods
+- Reading and studying the Holy Quran with translations
+- Tracking spiritual progress and maintaining Islamic habits
+- Learning Islamic practices, prayers, and sacred texts
+- Staying connected to your faith throughout the day
+
+### ADVANCED FEATURES:
+- Offline functionality - works without internet connection
+- Location-based prayer times with multiple calculation methods
+- Customizable notifications and reminders
+- Progress tracking for Quran reading and dhikr
+- Beautiful Islamic interface with dark mode support
+- Comprehensive statistics for spiritual activities
+
+AsSirat combines traditional Islamic practices with modern technology, making it easier than ever to maintain your religious obligations and enhance your spiritual growth.
+Perfect for Muslims of all ages seeking a reliable, comprehensive Islamic companion for their daily spiritual needs.
+Download AsSirat today and transform your Islamic journey with confidence, convenience, and authentic Islamic guidance.
+
 
 ## 📁 Files Included
 
@@ -12,135 +43,4 @@ This folder contains the GitHub Pages website for the As-Sirat Islamic companion
 - **`privacy-policy.html`** - Complete privacy policy for app stores
 - **`terms-of-service.html`** - Terms of service and user agreement
 - **`data-disclosure.html`** - Detailed data collection disclosure
-
-## 🚀 Setup Instructions
-
-### 1. Enable GitHub Pages
-1. Go to your repository Settings
-2. Scroll down to "Pages" section
-3. Source: Deploy from a branch
-4. Branch: `main` (or your default branch)
-5. Folder: `/github-pages`
-6. Click "Save"
-
-### 2. Custom Domain (Optional)
-If you have a custom domain:
-1. Add a `CNAME` file with your domain name
-2. Configure DNS settings with your domain provider
-3. Enable "Enforce HTTPS" in Pages settings
-
-### 3. Access Your Site
-- GitHub Pages URL: `https://[username].github.io/[repository-name]/`
-- Custom domain: `https://your-domain.com`
-
-## 📱 App Store Requirements
-
-This website provides all necessary legal documentation for:
-
-### Google Play Store
-- ✅ Privacy Policy (required)
-- ✅ Terms of Service (recommended)
-- ✅ Data disclosure for location access
-- ✅ Professional website for developer verification
-
-### Apple App Store
-- ✅ Privacy Policy (required)
-- ✅ Terms of Service (required for paid apps/subscriptions)
-- ✅ Support contact information
-- ✅ App description and features
-
-## 🔗 Legal Page URLs
-
-Once deployed, reference these URLs in your app store listings:
-
-```
-Privacy Policy: https://[your-domain]/privacy-policy.html
-Terms of Service: https://[your-domain]/terms-of-service.html
-Data Disclosure: https://[your-domain]/data-disclosure.html
-```
-
-## 🎨 Customization
-
-### Colors and Branding
-The CSS uses Islamic-inspired green color scheme:
-- Primary: `#2E7D32` (Islamic Green)
-- Secondary: `#4CAF50` (Light Green)
-- Update these in `styles.css` to match your app branding
-
-### Content Updates
-Update the following as needed:
-- Contact email addresses
-- App store download links
-- Feature descriptions
-- Company information
-
-### Images (To Add)
-Consider adding these visual elements:
-- App icon/logo
-- Screenshot gallery
-- Feature illustrations
-- Islamic-themed graphics
-
-## 📧 Contact Information
-
-Update all email addresses in the legal documents:
-- `support@assirat-app.com` - General support
-- `privacy@assirat-app.com` - Privacy inquiries
-
-## 🔒 Security Features
-
-### Privacy-First Design
-- Minimal data collection disclosure
-- Clear opt-out instructions
-- Islamic values integration
-- GDPR/CCPA compliance
-
-### App Store Compliance
-- Age-appropriate content declaration
-- Location usage justification
-- Analytics opt-out options
-- Religious content sensitivity
-
-## 📝 Maintenance
-
-### Regular Updates
-- Review legal documents annually
-- Update contact information as needed
-- Refresh app features descriptions
-- Monitor compliance with new regulations
-
-### Version Control
-- Keep dated versions of legal documents
-- Document significant changes
-- Maintain change logs for transparency
-
-## 🌍 Multi-language Support
-
-Currently provided in English. Consider adding:
-- Arabic translations for Islamic content
-- Local language versions for target markets
-- RTL (Right-to-Left) support for Arabic
-
-## ⚖️ Legal Compliance
-
-This documentation is designed for compliance with:
-- GDPR (European Union)
-- CCPA (California)
-- Google Play Developer Policy
-- Apple App Store Review Guidelines
-- Islamic principles of privacy and trust
-
-## 🚀 Deployment Checklist
-
-Before going live:
-- [ ] Update all placeholder email addresses
-- [ ] Add real app store download links
-- [ ] Test all internal links
-- [ ] Verify mobile responsiveness
-- [ ] Check Islamic content accuracy
-- [ ] Review legal compliance
-- [ ] Test contact forms/emails
-
----
-
-**Note:** This website serves as the official legal and informational hub for the As-Sirat Islamic app. Ensure all information remains current and accurate for app store compliance and user trust.
+  
