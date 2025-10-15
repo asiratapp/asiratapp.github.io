@@ -12,7 +12,7 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <a href="index.html" style="color: white; text-decoration: none;">
+                    <a href="index.html" class="logo-link">
                         <h2>As-Sirat</h2>
                         <span class="tagline">Islamic Companion</span>
                     </a>
@@ -23,6 +23,11 @@
                     <a href="terms-of-service.html" class="nav-link">Terms</a>
                     <a href="data-disclosure.html" class="nav-link">Data</a>
                 </div>
+                <div class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </nav>
     </header>
@@ -30,9 +35,9 @@
     <main class="legal-page">
         <div class="container">
             <div class="legal-content">
-                <div style="text-align: center; margin-bottom: 2rem; padding: 1.5rem; background: #2C3E50; color: white; border-radius: 12px;">
-                    <h2 style="margin: 0; color: white; font-size: 1.5rem; font-weight: bold;">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</h2>
-                    <p style="margin: 0.5rem 0 0 0; font-style: italic; opacity: 0.9;">In the Name of Allah, Most Gracious, Most Merciful</p>
+                <div class="islamic-header">
+                    <h2>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</h2>
+                    <p>In the Name of Allah, Most Gracious, Most Merciful</p>
                 </div>
 
                 <h1>Data Collection Disclosure</h1>
@@ -340,16 +345,16 @@
                     </ul>
                 </div>
 
-                <p style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e9ecef; color: #666; font-style: italic;">
+                <p class="disclosure-commitment">
                     This disclosure represents our commitment to transparency and respect for your privacy. 
                     We believe that protecting your personal information is both a legal responsibility and 
                     a moral obligation in serving the Muslim community.
                 </p>
 
-                <div style="text-align: center; margin: 3rem 0 2rem; padding: 1.5rem; background: #2C3E50; color: white; border-radius: 12px;">
-                    <h3 style="margin: 0; color: white; font-size: 1.3rem; font-weight: bold;">وَمَا يَخْفَى عَلَى اللَّهِ مِن شَيْءٍ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ</h3>
-                    <p style="margin: 0.5rem 0; font-style: italic; opacity: 0.9;">And nothing is hidden from Allah on the earth or in the heaven</p>
-                    <p style="margin: 1rem 0 0 0; font-size: 0.9rem; opacity: 0.8;">
+                <div class="islamic-footer">
+                    <h3>وَمَا يَخْفَى عَلَى اللَّهِ مِن شَيْءٍ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ</h3>
+                    <p class="arabic-translation">And nothing is hidden from Allah on the earth or in the heaven</p>
+                    <p class="dua-text">
                         This disclosure represents our commitment to transparency and respect for your privacy. 
                         We believe that protecting your personal information is both a legal responsibility and 
                         a moral obligation in serving the Muslim community.
@@ -385,5 +390,32 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Mobile hamburger menu toggle
+        const hamburger = document.querySelector('.hamburger-menu');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', function() {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
+        });
+        
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
